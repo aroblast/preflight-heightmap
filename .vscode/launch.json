@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Start",
+      "type": "debugpy",
+      "request": "launch",
+      "program": ".venv/bin/gunicorn",
+      "cwd": "${workspaceFolder}",
+      "args": ["preflight-heightmap.app", "--bind=127.0.0.1:3010", "--reload" , "--timeout=120000"],
+      "console": "internalConsole"
+    }
+  ],
+}

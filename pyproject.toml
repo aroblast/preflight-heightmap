@@ -1,0 +1,15 @@
+[project]
+name = "preflight-heightmap"
+version = "0.0.1"
+authors = [{ name = "Bastien LE CORRE", email = "bastien.lecorre@gmail.com" }]
+description = "Preflight heightmap calculation project."
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ["numpy", "falcon", "gunicorn", "falcon_caching"]
+
+[project.urls]
+Homepage = "https://preflight.fr"

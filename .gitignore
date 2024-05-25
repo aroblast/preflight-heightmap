@@ -1,0 +1,8 @@
+.DS_STORE
+build/
+.venv/
+__pycache__/
+*.egg-info
+
+# Data files
+preflight-heightmap/data/**
