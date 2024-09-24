@@ -5,4 +5,4 @@ __pycache__/
 *.egg-info
 
 # Data files
-preflight-heightmap/data/**
+# preflight-heightmap/data/**
